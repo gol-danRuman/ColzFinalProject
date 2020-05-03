@@ -1,0 +1,40 @@
+test/SampleTest/data/sample1
+node_modules/*
+test/*
+
+datacolz-project-web/node_modules
+
+
+colz_project_backend/*
+colz_project_backend/model/
+
+MayPractise/*
+FinalTest/*
+
+images/*
+.vscode
+.ipynb_checkpoints
+.idea
+test
+venv
+
+data/*
+datacolz-project-web/.pnp
+datacolz-project-web/.pnp.js
+
+# testing
+datacolz-project-web/coverage
+
+# production
+datacolz-project-web/build
+
+# misc
+datacolz-project-web/.DS_Store
+datacolz-project-web/.env.local
+datacolz-project-web/.env.development.local
+datacolz-project-web/.env.test.local
+datacolz-project-web/.env.production.local
+
+datacolz-project-web/npm-debug.log*
+datacolz-project-web/yarn-debug.log*
+datacolz-project-web/yarn-error.log*

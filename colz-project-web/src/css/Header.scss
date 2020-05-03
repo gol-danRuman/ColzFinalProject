@@ -1,0 +1,12 @@
+header{
+   background: #fff;
+   padding: 15 px;
+   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16); // z-index: 9;
+    z-index: 2;
+    color: #707070;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+}

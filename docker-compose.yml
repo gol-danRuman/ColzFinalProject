@@ -1,0 +1,29 @@
+version: '3'
+
+services:
+  back-end:
+    image: my-colz-project-backend:v1
+    expose:
+      - 5000
+    ports:
+      - 5000:5000
+    networks:
+      - my-colz-project-net
+    container_name: my-colz-project-backend
+
+  front-end:
+    image: my-colz-project-frontend:v1
+    expose:
+      - 3000
+      - 3001
+    ports:
+      - 3000:3000
+      - 3001:3001
+    networks:
+      - my-colz-project-net
+    volumes:
+      - ${PWD}:/app
+      - /app/node_modules
+
+networks:
+  front:

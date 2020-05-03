@@ -1,12 +1,714 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectFrameBounds">
-    <option name="x" value="57" />
-    <option name="y" value="47" />
-    <option name="width" value="1299" />
-    <option name="height" value="701" />
+  <component name="ChangeListManager">
+    <list default="true" id="817c4d02-304f-438b-b75c-3ce0e1de797b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz-project-web/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz-project-web/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz-project-web/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz-project-web/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz-project-web/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz-project-web/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz-project-web/src/App.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz-project-web/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz-project-web/src/components/Start.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz-project-web/src/components/crimes.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz-project-web/src/components/piechart.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz-project-web/src/config/common.spec.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz-project-web/src/config/common.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz-project-web/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz-project-web/src/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz-project-web/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz-project-web/src/react-app-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz-project-web/src/serviceWorker.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz-project-web/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz_project_backend/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz_project_backend/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz_project_backend/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz_project_backend/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz_project_backend/data/data1000.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz_project_backend/data/data100000.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz_project_backend/data/data20000.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz_project_backend/data/data30000.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz_project_backend/data/data50000.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz_project_backend/model/All_saved_knn_model_N_100.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz_project_backend/model/All_saved_lgr_model.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz_project_backend/model/All_saved_lgr_model_1000.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz_project_backend/model/dtc_model_1000.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz_project_backend/model/finalized_model.sav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz_project_backend/model/lgr_model_1000.sav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz_project_backend/model/multinomialNB_model_1000.sav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz_project_backend/model/rfc_model_1000.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz_project_backend/mygraph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz_project_backend/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz_project_backend/static/images/ArrestDataPieChart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz_project_backend/static/images/CrimeFrequencyBarGraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz_project_backend/static/images/CrimeYearDataBarGraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz_project_backend/static/images/DistrictFrequencyBarGraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz_project_backend/static/images/DomesticDataPieChart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz_project_backend/static/images/HourDayFrequencyBarGraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz_project_backend/static/images/MonthsFrequencyBarGraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz_project_backend/static/images/WeekDayFrequencyBarGraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz_project_backend/utility.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/colz_project_backend/uwsgi.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ArrestDataPieChart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/CrimeTypesBarGraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/CrimeYearDataBarGraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/DomesticDataPieChart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.ipynb_checkpoints/CrimesColumn-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.ipynb_checkpoints/DateColumn-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.ipynb_checkpoints/DateTokenizer-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.ipynb_checkpoints/Model1Test-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.ipynb_checkpoints/NotEmptyData-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.ipynb_checkpoints/RemoveEmptyData[Data preprocessing]-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.ipynb_checkpoints/SaveUniqueTypeOfCrimesAsLabelCSV-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.ipynb_checkpoints/ShowdataInTablePieChart[Data Processing]-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.ipynb_checkpoints/Testing-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.ipynb_checkpoints/TestingFile-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.ipynb_checkpoints/TokenizerUniqueCrimes-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/.ipynb_checkpoints/TypesOfCrimes-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/10000TestModel/.ipynb_checkpoints/Model1Test10000Data-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/10000TestModel/Model1Test10000Data.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/10000TestModel/model.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/10000TestModel/model.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/CrimesColumn.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/DateColumn.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/DateTokenizer.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Model1Test.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/RemoveEmptyData[Data preprocessing].ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/SaveUniqueTypeOfCrimesAsLabelCSV.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ShowdataInTablePieChart[Data Processing].ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Testing.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/TokenizerUniqueCrimes.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ColzFinalProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ColzFinalProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/TestingFile.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/test/TestingFile.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/TypesOfCrimes.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/test/TypesOfCrimes.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/UniqueRowsINData.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/test/UniqueRowsINData.ipynb" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/colz_project_backend/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="960">
+              <caret line="70" selection-start-line="70" selection-end-line="70" />
+              <folding>
+                <element signature="e#1#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FinalTest/CreateFinalData-Copy1.ipynb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="2129" column="18" selection-start-line="2129" selection-start-column="18" selection-end-line="2129" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/colz_project_backend/mygraph.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/colz_project_backend/utility.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1035">
+              <caret line="73" column="23" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pickle</find>
+      <find>my</find>
+      <find>myda</find>
+      <find>0</find>
+      <find>images</find>
+      <find>colz_project_backend</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/data/test.csv" />
+        <option value="$PROJECT_DIR$/readCSV.py" />
+        <option value="$PROJECT_DIR$/colz-project-web/public/index.html" />
+        <option value="$PROJECT_DIR$/template/view.html" />
+        <option value="$PROJECT_DIR$/abc.py" />
+        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/colz-project-backend/load_model/loadModel.py" />
+        <option value="$PROJECT_DIR$/colz-project-backend/load_model/__init__.py" />
+        <option value="$PROJECT_DIR$/colz-project-backend/test/__init__.py" />
+        <option value="$PROJECT_DIR$/colz-project-backend/app.py" />
+        <option value="$PROJECT_DIR$/colz-project-backend-test/load_modelsdfasdfa/loadModel.py" />
+        <option value="$PROJECT_DIR$/colz-project-backend-test/app.py" />
+        <option value="$PROJECT_DIR$/colz_project_backend/__init__.py" />
+        <option value="$PROJECT_DIR$/colz_project_backend/loadKnnModel.py" />
+        <option value="$PROJECT_DIR$/colz_project_backend/loadLogisticModel.py" />
+        <option value="$PROJECT_DIR$/colz_project_backend/requirements.txt" />
+        <option value="$PROJECT_DIR$/colz_project_backend/app/app.py" />
+        <option value="$PROJECT_DIR$/.dockerignore" />
+        <option value="$PROJECT_DIR$/colz_project_backend/apple.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$PROJECT_DIR$/colz_project_backend/Dockerfile" />
+        <option value="$PROJECT_DIR$/colz_project_backend/uwsgi.ini" />
+        <option value="$PROJECT_DIR$/colz_project_backend/graph.py" />
+        <option value="$PROJECT_DIR$/colz_project_backend/mygraph.py" />
+        <option value="$PROJECT_DIR$/colz_project_backend/app.py" />
+        <option value="$PROJECT_DIR$/colz_project_backend/utility.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JQLSearcherManager">
+    <searchers>
+      <JQLSearcher alias="Assigned to me" jql="assignee = currentUser()" />
+    </searchers>
+  </component>
+  <component name="JiraServerManager">
+    <selected>-1</selected>
+    <servers />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="47" />
+    <option name="y" value="25" />
+    <option name="width" value="1319" />
+    <option name="height" value="743" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ColzFinalProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ColzFinalProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/colz_project_backend/data" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/colz_project_backend/data" />
+      <recent name="$PROJECT_DIR$/colz_project_backend/model" />
+      <recent name="$PROJECT_DIR$/colz_project_backend/static/images" />
+      <recent name="$PROJECT_DIR$/colz_project_backend" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/colz_project_backend" />
+      <recent name="$PROJECT_DIR$/colz_project_backend/app" />
+      <recent name="$PROJECT_DIR$/FinalTest" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.app le">
+    <configuration name="abc" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ColzFinalProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/abc.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app le" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ColzFinalProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/colz_project_backend" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/colz_project_backend/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python">
+      <module name="ColzFinalProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="loadKnnModel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ColzFinalProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/colz_project_backend" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/colz_project_backend/loadKnnModel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="readCSV" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ColzFinalProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/readCSV.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="utility" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ColzFinalProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/colz_project_backend" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/colz_project_backend/utility.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.app" />
+      <item itemvalue="Python.abc" />
+      <item itemvalue="Python.app le" />
+      <item itemvalue="Python.loadKnnModel" />
+      <item itemvalue="Python.readCSV" />
+      <item itemvalue="Python.utility" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app le" />
+        <item itemvalue="Python.utility" />
+        <item itemvalue="Python.loadKnnModel" />
+        <item itemvalue="Python.abc" />
+        <item itemvalue="Python.readCSV" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="817c4d02-304f-438b-b75c-3ce0e1de797b" name="Default Changelist" comment="" />
+      <created>1543041214643</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543041214643</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="47" y="25" width="1319" height="743" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31343284" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="aws.explorer" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40065145" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39739415" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4992284" weight="0.32736155" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49789384" visible="true" weight="0.4397394" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50210613" side_tool="true" weight="0.32685512" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JIRA" order="11" weight="0.32899022" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49845678" weight="0.2775974" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="PlantUML" order="3" />
+      <window_info anchor="right" id="JSON Viewer" order="4" weight="0.3299293" />
+    </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ini" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/colz-project-backend-test/TestingA/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/colz_project_backend/model/All_saved_knn_model_N_100.pkl" />
+    <entry file="file://$PROJECT_DIR$/test/SampleTest/ArrestDataPieChart.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colz_project_backend/loadLogisticModel.py" />
+    <entry file="file://$PROJECT_DIR$/colz_project_backend/loadKnnModel.py" />
+    <entry file="file://$PROJECT_DIR$/FinalTest/june12Testing/.ipynb_checkpoints/UsingKNNClassiferTest-checkpoint.ipynb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11220">
+          <caret line="748" column="14" selection-start-line="748" selection-start-column="14" selection-end-line="748" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colz_project_backend/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colz_project_backend/app/utility/utility.py" />
+    <entry file="file://$PROJECT_DIR$/.dockerignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/Testing1/lib/python3.6/pickle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalTest/March25 Testing/graphPlot.ipynb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colz_project_backend/static/images/ArrestDataPieChart.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colz_project_backend/static/images/CrimeYearDataBarGraph.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colz_project_backend/static/images/DomesticDataPieChart.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colz_project_backend/.dockerignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding>
+            <element signature="e#44#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colz_project_backend/static/images/CrimeTypesBarGraph.png" />
+    <entry file="file://$PROJECT_DIR$/colz_project_backend/static/images/CrimeFrequencyBarGraph.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colz_project_backend/static/images/HourDayFrequencyBarGraph.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colz_project_backend/static/images/WeekDayFrequencyBarGraph.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colz_project_backend/static/images/MonthsFrequencyBarGraph.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colz_project_backend/uwsgi.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colz_project_backend/static/test/CrimeFrequencyBarGraph.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colz_project_backend/model/lgr_model_1000.obj" />
+    <entry file="file://$PROJECT_DIR$/colz_project_backend/model/lgr_model_1000.pkl" />
+    <entry file="file://$PROJECT_DIR$/colz_project_backend/model/All_saved_lgr_model_1000.obj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colz_project_backend/model/All_saved_lgr_model.obj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalTest/june12Testing/finalized_model.sav">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colz_project_backend/model/finalized_model.sav">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colz_project_backend/model/All_saved_knn_model_N_100.obj">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colz_project_backend/model/lgr_model_1000.sav">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalTest/june12Testing/multinomialNB_model_1000.obj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalTest/june12Testing/multinomialNB_model_1000.sav">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-188" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colz_project_backend/model/multinomialNB_model_1000.sav">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalTest/june12Testing/dtc_model_1000.obj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colz_project_backend/model/dtc_model_1000.obj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalTest/june12Testing/saved_knn_model.pkl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalTest/june12Testing/rfc_model_1000.obj">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colz_project_backend/model/rfc_model_1000.obj">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colz_project_backend/data/data1000.obj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colz_project_backend/data/data20000.obj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colz_project_backend/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colz_project_backend/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/Testing1/lib/python3.6/site-packages/sklearn/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="320" column="45" lean-forward="true" selection-start-line="320" selection-start-column="45" selection-end-line="320" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colz_project_backend/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+          <folding>
+            <element signature="e#1#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colz_project_backend/mygraph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colz_project_backend/utility.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="73" column="23" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FinalTest/CreateFinalData-Copy1.ipynb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="2129" column="18" selection-start-line="2129" selection-start-column="18" selection-end-line="2129" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
